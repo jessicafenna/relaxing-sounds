@@ -16,10 +16,11 @@ body {
     height: 100vh;
     text-align: center;
     margin: 0;
+    transition: 0.5s;
 }
 
 .btn { 
-    background-color: #ee7db6;
+    /* background-color: #ee7db6; */
     border-radius: 10px;
     border: none;
     color: whitesmoke;
@@ -30,7 +31,14 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: 500ms linear;
+    
     /* transition: all 0.2s ease-in-out */
+    background: rgba( 238, 125, 182, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* .btn:active { 
@@ -43,6 +51,11 @@ body {
     margin: 10px;
     padding: 20px 30px 20px 30px;
     transition: 500ms linear;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )
 }
 
 @media screen and (max-width: 600px){ 
